@@ -289,9 +289,9 @@ h3 { font-size: 24px; }
 .plans-section { background: #f5efe3; }
 .plans {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 18px;
-  max-width: 1120px;
+  max-width: 620px;
   margin: 0 auto;
 }
 .plan-card {
